@@ -5,7 +5,7 @@ on:
 
 jobs:
   release-please:
-    if: github.repository == 'CoPoKo/Hole'
+    if: github.repository == 'CoPoKo/Wormhole'
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
@@ -13,7 +13,7 @@ jobs:
           release-type: node
           package-name: "@copoko/wormhole"
   npm-publish:
-    if: ${{ contains(github.event.head_commit.message, 'chore') && contains(github.event.head_commit.message, 'release') && github.repository == 'CoPoKo/Hole' }}
+    if: ${{ contains(github.event.head_commit.message, 'chore') && contains(github.event.head_commit.message, 'release') && github.repository == 'CoPoKo/Wormhole' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
