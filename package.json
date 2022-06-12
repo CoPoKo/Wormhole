@@ -1,6 +1,6 @@
 {
   "name": "@copoko/wormhole",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CoPoKo Wormhole",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,5 @@
     "url": "https://github.com/CoPoKo/Wormhole/issues"
   },
   "homepage": "https://github.com/CoPoKo/Wormhole#readme",
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
